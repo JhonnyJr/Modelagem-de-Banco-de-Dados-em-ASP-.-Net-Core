@@ -10,7 +10,11 @@ ORM's e Frameworks (Pacotes Nuggets) usadas:
   - AspNetCore
   - Nhibernate
   - Mysql.Data
-  
+
+Interface gráfica usada:
+ 
+ - Swagger
+ 
   
 A aplicação foi feita em Projetos separados para seguir a organização de uma aquitetura de software.
 Os projetos foram divididos dessa maneira:
@@ -40,7 +44,7 @@ Os projetos foram divididos dessa maneira:
   >> Configuração da aplicação à qual software de banco de dados está sendo usado <br>
   >> **Frameworks da Solução**: MicrosoftNETCoreApp, FluentNHibernate, MySqlData, Nhibernate, 
   
-  ###### Especificando seu banco de dados:
+  ###### Especificação do seu banco de dados é feito na classe Startup dentro da aplicação API:
   ```
   ISessionFactory _sessionFactory = ServiceHelper.CreateSessionFactory("Server=[SEU IP];User Id=[SEU USER]; Password=[SUA SENHA];");
   ```
