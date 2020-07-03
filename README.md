@@ -15,7 +15,7 @@ A aplicação foi feita em Projetos separados para seguir a organização de uma
 Os projetos foram divididos dessa maneira:
   
   > API
-  >> Responsável pela entrada e saída de dados
+  >> Responsável pela entrada e saída de dados <br>
   >> Frameworks da Solução: AutoMapper, AutoMapperExtensionsMicrosoftDependencies, MicrosoftNETCoreApp
   >> Nhibernate, Ninject, Scrutor, Swashbuckle, MicrosoftAspNetCoreRazorDesign
   >
