@@ -1,4 +1,4 @@
-**Modelagem de Banco de Dados com uso de ASP . Net Core, com uso de ORM's.**
+**Modelagem de Banco de Dados com uso de ASP . Net Core e ORM's.**
 
 ORM's e Frameworks (Pacotes Nuggets) usadas:
   
