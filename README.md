@@ -16,28 +16,28 @@ Os projetos foram divididos dessa maneira:
   
   > API
   >> Responsável pela entrada e saída de dados <br>
-  >> Frameworks da Solução: AutoMapper, AutoMapperExtensionsMicrosoftDependencies, <br>MicrosoftNETCoreApp
+  >> _Frameworks da Solução_: AutoMapper, AutoMapperExtensionsMicrosoftDependencies, <br>MicrosoftNETCoreApp
   >> Nhibernate, Ninject, Scrutor, Swashbuckle, MicrosoftAspNetCoreRazorDesign
   >
   > Aplicação 
   >> Mapeamento do banco para os dados de saída, filtragem e manipulação dos dados<br>
-  >> Frameworks da Solução: AutoMapper, MicrosoftNETCoreApp
+  >> _Frameworks da Solução_: AutoMapper, MicrosoftNETCoreApp
   >
   > DataTransfer 
   >> Dados de entrada e saída da API <br>
-  >> Frameworks da Solução: MicrosoftNETCoreApp
+  >> _Frameworks da Solução_: MicrosoftNETCoreApp
   >
   > Dominio
   >> Entidades do banco de dados, enumeradores do banco criados para a entidade, cabeçalho das funções do serviço <br>
-  >> Frameworks da Solução: MicrosoftNETCoreApp
+  >> _Frameworks da Solução_: MicrosoftNETCoreApp
   >
   > Infra 
   >> Mapeamento das entidades do banco de dados, funções no banco sem ser de filtragem <br>
-  >> Frameworks da Solução: MicrosoftNETCoreApp, FluentNHibernate
+  >> _Frameworks da Solução_: MicrosoftNETCoreApp, FluentNHibernate
   >
   > IOC
   >> Configuração da aplicação à qual software de banco de dados está sendo usado <br>
-  >> Frameworks da Solução: MicrosoftNETCoreApp, FluentNHibernate, MySqlData, Nhibernate, 
+  >> _Frameworks da Solução_: MicrosoftNETCoreApp, FluentNHibernate, MySqlData, Nhibernate, 
   
   
   
