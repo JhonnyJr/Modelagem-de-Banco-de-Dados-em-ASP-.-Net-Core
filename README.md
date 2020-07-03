@@ -40,7 +40,7 @@ Os projetos foram divididos dessa maneira:
   >> Configuração da aplicação à qual software de banco de dados está sendo usado <br>
   >> **Frameworks da Solução**: MicrosoftNETCoreApp, FluentNHibernate, MySqlData, Nhibernate, 
   
-  ######Especificando seu banco de dados:
+  #####Especificando seu banco de dados:
   ```
   ISessionFactory _sessionFactory = ServiceHelper.CreateSessionFactory("Server=[SEU IP];User Id=[SEU USER]; Password=[SUA SENHA];");
   ```
