@@ -1,7 +1,7 @@
 **Modelagem de Banco de Dados com uso de ASP . Net Core e ORM's.**
 ----
 
-ORM's e Frameworks (Pacotes Nuggets) usadas:
+## ORM's e Frameworks (Pacotes Nuggets) usadas:
   
   - AutoMapper
   - FluentNHibernate
@@ -11,7 +11,7 @@ ORM's e Frameworks (Pacotes Nuggets) usadas:
   - Nhibernate
   - Mysql.Data
 
-Interface gráfica usada:
+## Interface gráfica usada:
  
  - Swagger
  
