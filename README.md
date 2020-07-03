@@ -45,7 +45,7 @@ Os projetos foram divididos dessa maneira:
   >> **Frameworks da Solução**: MicrosoftNETCoreApp, FluentNHibernate, MySqlData, Nhibernate, 
   
   ###### Especificação do seu banco de dados é feito na classe Startup dentro da aplicação API:
-  ```
+  ```cs
   ISessionFactory _sessionFactory = ServiceHelper.CreateSessionFactory("Server=[SEU IP];User Id=[SEU USER]; Password=[SUA SENHA];");
   ```
   
