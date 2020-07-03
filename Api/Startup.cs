@@ -48,7 +48,7 @@ namespace Api
             {
                 x.SwaggerDoc("v1", new OpenApiInfo { Title= "API Interdisciplinar", Version = "v1" });
             });
-            ISessionFactory _sessionFactory = ServiceHelper.CreateSessionFactory("Server=127.0.0.1;User Id=root; Password=jota1234;");
+            ISessionFactory _sessionFactory = ServiceHelper.CreateSessionFactory("Server=  ;User Id=  ; Password=  ;");
             services.AddSingleton(_sessionFactory);
             services.AddScoped(factory =>
             {
