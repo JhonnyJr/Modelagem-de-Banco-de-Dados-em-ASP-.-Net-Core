@@ -10,7 +10,7 @@
     <PackageReference Include="DocumentFormat.OpenXml" Version="2.10.1" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" />
     <PackageReference Include="Microsoft.NETCore.App" Version="2.2.8" />
-    <PackageReference Include="NHibernate" Version="5.2.7" />
+    <PackageReference Include="NHibernate" Version="5.4.9" />
     <PackageReference Include="Ninject" Version="3.3.4" />
     <PackageReference Include="Scrutor" Version="3.2.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
